@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- android:oneshot如果定义为true的话，此动画只会执行一次，如果为false则一直循环。 -->
+    android:oneshot="false" >
+
+
+    <!-- 指定每一帧所使用的图片,及每张图片所播放的时长 -->
+    <item
+        android:drawable="@mipmap/horse"
+        android:duration="200"></item>
+    <item
+        android:drawable="@mipmap/pic"
+        android:duration="200"></item>
+
+    <!--将图片放置在res/drawable下也ok-->
+    <!--<item
+        android:drawable="@drawable/horse"
+        android:duration="200"></item>
+    <item
+        android:drawable="@drawable/pic"
+        android:duration="200"></item>-->
+
+</animation-list>
